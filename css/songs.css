@@ -1,0 +1,97 @@
+body {
+    font-family: 'Microsoft YaHei', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#header {
+    position: relative;
+}
+
+#back-to-index {
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgba(192, 192, 192, 0.7); /* 毛玻璃效果的淡灰色 */
+    top: 20px;
+    left: 20px;
+    padding: 25px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    border: none;
+    cursor: pointer;
+    font-family: 'Microsoft YaHei', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    z-index: 2;
+}
+
+#top-section {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.top-image {
+    width: 100%;
+    height: auto;
+}
+
+.songs-svg {
+    position: absolute;
+    top: 105%;
+    left: 54.5%;
+    scale: 2.5;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.bg-svg {
+    position: absolute;
+    top: 79.55%;
+    left: 40%;
+    scale: 0.4;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+#songs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.song-block {
+    width: 300px;
+    margin: 20px;
+    background: url('./pic/b1.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.song-image {
+    position: relative;
+    left: 15%;
+    width: 75%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.song-details {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0 0 10px 10px;
+    color: #fff;
+}
+
+.song-details h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.song-details p {
+    margin: 5px 0;
+}

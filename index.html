@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Arcaea-主页</title>
+</head>
+
+<body>
+
+    <div id="header">
+        <div id="navbar">
+            <button class="nav-button" onclick="changePage('https://bolenggaier.github.io/')">寝室主页</button>
+            <button class="nav-button" onclick="changePage('character.html')">游戏角色(部分)</button>
+            <button class="nav-button" onclick="changePage('story.html')">游戏故事(部分)</button>
+            <button class="nav-button" onclick="changePage('songs.html')">游戏歌曲</button>
+            <button class="nav-button" onclick="changePage('goods.html')">周边</button>
+        </div>
+        <img src="./pic/Main.jpg" alt="Main Image" style="width: 100%; height: 100%; object-fit: cover;">
+        <img src="./pic/logo.png" onclick="window.open('https://arcaea.lowiro.com/zh/')" alt="Title 1" class="title-image" >
+        <img src="./pic/donwload.png" onclick="window.open('https://play.google.com/store/apps/details?id=moe.low.arc&pli=1')" alt="Title 1" class="download-image" >
+    </div>
+
+    <div id="main-content">
+        <div class="section">
+            <img src="./pic/bar.png" alt="b1 Image" style="width: 100%; height: 100%; object-fit: cover;;">
+        </div>
+    </div>
+
+    <script>
+        function changePage(page) {
+            window.location.href = page;
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+body {
+    font-family: 'Microsoft YaHei', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#header {
+    position: relative;
+}
+
+#back-to-index {
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgba(67, 67, 67, 0.7); /* 毛玻璃效果的淡灰色 */
+    top: 20px;
+    left: 20px;
+    padding: 25px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Microsoft YaHei', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    z-index: 2;
+}
+
+#top-section {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.top-image {
+    width: 100%;
+    height: auto;
+}
+
+#goods-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.good-block {
+    width: 300px;
+    margin: 20px;
+    background: url('./pic/b1.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.good-image {
+    position: relative;
+    left: 15%;
+    width: 75%;
+    width: 75%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.good-details {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0 0 10px 10px;
+    color: #fff;
+}
+
+.good-details h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.good-details p {
+    margin: 5px 0;
+}
